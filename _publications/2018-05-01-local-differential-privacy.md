@@ -1,0 +1,13 @@
+---
+title: "Guaranteeing Local Differential Privacy on Ultra-Low-Power Systems"
+collection: publications
+permalink: /publication/local_differential_privacy
+excerpt: 'We show that low resolution and fixed point nature of ultra-low-power implementations prevent privacy guarantees from being provided due to low quality noising. We present techniques, resampling and thresholding, to overcome this limitation.'
+date: 2018-05-01
+venue: 'ISCA'
+paperurl: 'https://dl.acm.org/doi/10.1109/ISCA.2018.00053'
+citation: 'Woo-Seok Choi, Matthew Tomei, Jose Rodrigo Sanchez Vicarte, Pavan Kumar Hanumolu, and Rakesh Kumar. 2018. Guaranteeing local differential privacy on ultra-low-power systems. In Proceedings of the 45th Annual International Symposium on Computer Architecture (ISCA ’18). IEEE Press, 561–574. DOI:https://doi.org/10.1109/ISCA.2018.00053'
+---
+Sensors in mobile devices and IoT systems increasingly generate data that may contain private information of individuals. Generally, users of such systems are willing to share their data for public and personal benefit as long as their private information is not revealed. A fundamental challenge lies in designing systems and data processing techniques for obtaining meaningful information from sensor data, while maintaining the privacy of the data and individuals. In this work, we explore the feasibility of providing local differential privacy on ultra-low-power systems that power many sensor and IoT applications. We show that low resolution and fixed point nature of ultra-low-power implementations prevent privacy guarantees from being provided due to low quality noising. We present techniques, resampling and thresholding, to overcome this limitation. The techniques, along with a privacy budget control algorithm, are implemented in hardware to provide privacy guarantees with high integrity. We show that our hardware implementation, DP-Box, has low overhead and provides high utility, while guaranteeing local differential privacy, for a range of sensor/IoT benchmarks.
+
+[Download paper here](https://dl.acm.org/doi/10.1109/ISCA.2018.00053)
