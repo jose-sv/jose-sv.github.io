@@ -48,19 +48,19 @@ $type-size-8                : 0.625em;  // ~10px
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$dark-gray                  : #7B7375;
+$darker-gray                : #3B393C;
+$light-gray                 : #8E949E;
+$lighter-gray               : #E5E8EB;
 
-$body-color                 : #fff;
-$background-color           : #fff;
+$body-color                 : #8E949E;
+$background-color           : #404751;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : #E5E8EB;
+$border-color               : $light-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #E5E8EB;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -90,7 +90,7 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : #a9b8ff;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
