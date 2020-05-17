@@ -13,8 +13,8 @@ working under [Chris Fletcher](http://cwfletcher.net/).
 My work lives in the intersection of Adversarial Machine Learning and
 Hardware Security.
  
-I received my B.S. from Lawrence Technological University (in Southfield, MI
-), where I was a dual recipient of a Presidential Research Grant.
+I received my B.S. from Lawrence Technological University (in Southfield, MI),
+where I was a dual recipient of a Presidential Research Grant.
 I went on to complete my M.S. at the University of Illinois at Urbana-Champaign
 in the fall of 2019.
 My M.S. culminated in the introduction of
