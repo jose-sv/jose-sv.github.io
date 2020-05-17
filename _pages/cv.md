@@ -9,33 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
+Feel free to reach out to me at josers2 [at] illinois [dot] edu
+ for my full CV.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electrical and Computer Engineering, Lawrence Technological
+University, 2016
+* M.S. in Electrical and Computer Engineering, University of Illinois at
+ Urbana-Champaign, 2020
+* Ph.D. in Electrical and Computer Engineering, University of Illinois at
+ Urbana-Champaign, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Performance Architecture Intern
+  * Samsung Austin Research Center (SARC)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2016/17: Graduate Intern
+  * Robert Bosch LLC: MI, USA
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Summer 2015: Intern
+  * Laird Technologies Inc: MI, USA
+  
+* Summer 2013/14: Undergraduate Research Assistant
+  * Oakland University: MI, USA
+  
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -50,10 +49,7 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Spring 2019: Digital Systems Laboratory
+* Fall 2018: Computer Architecture (Grad)
+* Spring 2017: Senior Design
+* Fall 2016: Circuits Lab
