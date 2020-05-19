@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% include citations.html %}
 
 Feel free to reach out to me at josers2 [at] illinois [dot] edu
  for my full CV.
