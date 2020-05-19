@@ -8,9 +8,7 @@ date: 2020-03-14
 location: "Lausanne, Switzerland"
 ---
 
-<a href="http://www.youtube.com/watch?v=3_8sx5kkeBY">
-<img src="https://jose-sv.github.io/talks/heading.png" alt="First Slide" width="600"/>
-</a>
+{% include video id="3_8sx5kkeBY" provider="youtube" %}
 
 Presentation for "Game of Threads: Enabling Asynchronous Poisoning Attacks
 ," at ASPLOS'20
