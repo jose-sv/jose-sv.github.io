@@ -42,10 +42,10 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.paperurl %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default:
-              "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}"><u>Full Paper</u></a></p>
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}"><u>Full Paper</u></a> | {{ post.citation }}</p>
           {% else %}
-            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default:
+              "1900-01-01" | date: "%Y" }} | {{ post.citation }} </p>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -57,9 +57,5 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% endif %}
-
   </article>
 </div>
