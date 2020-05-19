@@ -6,8 +6,11 @@ excerpt: 'Our attack influences training outcome---e.g., degrades model accuracy
 date: 2020-03-01
 venue: 'ASPLOS'
 paperurl: 'https://dl.acm.org/doi/10.1145/3373376.3378462'
-citation: 'Jose Rodrigo Sanchez Vicarte, Benjamin Schreiber, Riccardo Paccagnella, and Christopher W. Fletcher. 2020. Game of Threads: Enabling Asynchronous Poisoning Attacks. In Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS ’20). Association for Computing Machinery, New York, NY, USA, 35–52. DOI:https://doi.org/10.1145/3373376.3378462'
+citation: '<a href="#bibtex-apa" class="open-popup-link">bibtex</a> | <a href="#nontex-apa" class="open-popup-link">Plain Text</a>'
+
 ---
+{% include citations.html %}
+
 <img src="https://dl.acm.org/userimages/na101/home/literatum/publisher/acm/classification/LinkedImages/reproducibility-types/artifacts_available/icon-small_201811200510.png" width="50" alt="artifact available badge"/>
 <img src="https://dl.acm.org/userimages/na101/home/literatum/publisher/acm/classification/LinkedImages/reproducibility-types/artifacts_evaluated_functional/icon-small_201811200512.png" width="50" alt="artifact evaluated and functional badge"/>
 
@@ -19,6 +22,6 @@ We demonstrate both accuracy degradation and model biasing attacks on the CIFAR-
 
 [Download paper here](https://dl.acm.org/doi/10.1145/3373376.3378462)
 
-[Articaft available here](https://zenodo.org/record/3598009)
+[Artifact available here](https://zenodo.org/record/3598009)
 
 [github repository available here](https://github.com/jose-sv/hogwild_pytorch)
