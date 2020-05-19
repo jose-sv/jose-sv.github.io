@@ -20,8 +20,6 @@ This paper studies the security implications of these codes by introducing async
 
 We demonstrate both accuracy degradation and model biasing attacks on the CIFAR-10 image recognition task, trained on Resnet-style DNNs using an asynchronous training code published by Pytorch. We also perform proof-of-concept experiments to validate our assumptions on an SGX-enabled machine. Our accuracy degradation attacks are capable of returning a converged model to pre-trained accuracy or to some accuracy in between. Our model biasing attack can force the model to predict an adversary-specified label up to ~40% of the time on the CIFAR-10 validation set (whereas the un-attacked model's prediction rate towards any label is ~10%).
 
-[Download paper here](https://dl.acm.org/doi/10.1145/3373376.3378462)
-
 [Artifact available here](https://zenodo.org/record/3598009)
 
 [github repository available here](https://github.com/jose-sv/hogwild_pytorch)
