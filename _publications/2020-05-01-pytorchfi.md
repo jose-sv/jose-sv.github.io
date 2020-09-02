@@ -5,6 +5,7 @@ permalink: /publication/2020-05-01-pytorchfi
 excerpt: 'PyTorchFI is a runtime perturbation tool for deep neural networks (DNNs), implemented for the popular PyTorch deep learning platform. PyTorchFI enables users to perform perturbations on weights or neurons of DNNs at runtime.'
 date: 2020-05-01
 venue: 'DSML'
+paperurl: 'https://dl.acm.org/doi/10.1145/3373376.3378462'
 citation: '<a href="#bibtex-pfi" class="open-popup-link">bibtex</a> | <a href="#nontex-pfi" class="open-popup-link">Plain Text</a>'
 ---
 {% include citations.html %}
@@ -27,5 +28,3 @@ This paper discusses the technical underpinnings and
 design decisions of PyTorchFI which make it an easy-to-use, extensible, fast,
 and versatile research tool. PyTorchFI is open-sourced and available 
 for download via pip or github at: [https://github.com/pytorchfi](https://github.com/pytorchfi)
-
-(Paper not yet available)
