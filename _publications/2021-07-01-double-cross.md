@@ -1,0 +1,15 @@
+---
+title: "Double-Cross Attacks: Subverting Active Learning Systems"
+collection: publications
+permalink: /publication/double_cross
+excerpt: 'We present a novel attack called Double Cross, which aims to manipulate data labeling and model training in active learning settings.'
+date: 2021-07-01
+venue: 'Usenix'
+paperurl: 'https://www.usenix.org/conference/usenixsecurity21/presentation/vicarte'
+citation: '<a href="#bibtex-double_cross" class="open-popup-link">bibtex</a> | <a href="#nontex-double_cross" class="open-popup-link">Plain Text</a>'
+---
+{% include citations.html %}
+
+Active learning is widely used in data labeling services to support real-world machine learning applications. By selecting and labeling the samples that have the highest impact on model retraining, active learning can reduce labeling efforts, and thus reduce cost.
+
+In this paper, we present a novel attack called Double Cross, which aims to manipulate data labeling and model training in active learning settings. To perform a double-cross attack, the adversary crafts inputs with a special trigger pattern and sends the triggered inputs to the victim model retraining pipeline. The goals of the triggered inputs are (1) to get selected for labeling and retraining by the victim; (2) to subsequently mislead human annotators into assigning an adversary-selected label; and (3) to change the victim model's behavior after retraining occurs. After retraining, the attack causes the victim to mislabel any samples with this trigger pattern to the adversary-chosen label. At the same time, labeling other samples, without the trigger pattern, is not affected. We develop a trigger generation method that simultaneously achieves these three goals. We evaluate the attack on multiple existing image classifiers and demonstrate that both gray-box and black-box attacks are successful. Furthermore, we perform experiments on a real-world machine learning platform (Amazon SageMaker) to evaluate the attack with human annotators in the loop, to confirm the practicality of the attack. Finally, we discuss the implications of the results and the open research questions moving forward.
