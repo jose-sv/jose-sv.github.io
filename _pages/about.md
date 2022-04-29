@@ -13,6 +13,7 @@ under [Chris Fletcher](http://cwfletcher.net/).
 My work lives in the intersection of Adversarial Machine Learning and Hardware Security.
 
 Check out our recent work on [Augury](https://www.prefetchers.info/)!
+Here's a [twitter thread](https://twitter.com/dkohlbre/status/1520080542221631489) about it too.
 Our experiments demonstrate the existence of a pointer-chasing DMP on recent Apple processors, including the A14 and M1.
 We then reverse engineer the details of this DMP to determine the opportunities for and restrictions it places on attackers using it.
 Finally, we demonstrate several basic attack primitives capable of leaking pointer values using the DMP.
