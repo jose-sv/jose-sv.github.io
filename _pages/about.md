@@ -33,4 +33,4 @@ My M.S. culminated in the introduction of
 [Asynchronous Poisoning Attacks](https://jose-sv.github.io/publication/2020-03-01-game-of-threads).
 
  Feel free to contact me josers2 [at] illinois [dot] edu with any questions
- about my papers or research, job openings, or anything else.
+ about my papers or research, or anything else.
