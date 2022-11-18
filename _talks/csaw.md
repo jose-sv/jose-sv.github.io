@@ -12,4 +12,4 @@ Poster presentation for "Augury: Using data memory-dependent prefetchers to leak
 Our work was runner up.
 
 <!-- ![Augury Poster](/assets/augury_csaw_for_web.pdf) -->
-<img src="assets/augury_csaw_for_web.pdf" class="img-responsive" alt="Augury Poster"> </div>
+<img src="assets/augury_csaw_for_web.pdf" class="img-responsive" alt="Augury Poster">
