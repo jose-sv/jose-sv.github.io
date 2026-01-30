@@ -24,6 +24,12 @@ University, 2016
 
 Work experience
 ======
+* Microsoft 2025: Senior Security Researcher
+  * V&M AI, within the Microsoft Security Response Center (MSRC)
+
+* Intel 2022: Hardware Security Researcher
+  * Security Research, within Intel Product Assurance and Security
+
 * Intel 2021: Security Researcher Intern
   * Security Architecture Engineering (SAE)
 

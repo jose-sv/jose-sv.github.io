@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jose Rodrigo Sanchez Vicarte"
 title_separator          : "-"
 name                     : &name "Jose Rodrigo Sanchez Vicarte"
-description              : &description "Hardware Security Researcher at Intel's Security Assurance and Cryptography group."
+description              : &description "Security Researcher at Microsoft."
 url                      : https://jose-sv.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jose-sv.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Jose Rodrigo Sanchez Vicarte"
   avatar           : "jose.jpg"
-  bio              : "Hardware Security Researcher at Intel's Security Assurance and Cryptography group."
-  location         : "Urbana-Champaign"
+  bio              : "Security Researcher in V&M AI at Microsoft."
+  location         :
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=C4SYWGUAAAAJ&hl=en"
-  email            : "josers2@illinois.edu"
+  email            :
   researchgate     :
   uri              :
   bitbucket        :

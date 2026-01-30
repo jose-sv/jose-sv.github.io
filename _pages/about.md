@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a Hardware Security Researcher at Intel's Security Assurance and Cryptography group.
+Hello! I am a Senior Security Researcher at the Microsoft Security Response Center (MSRC).
+As part of the V&M AI group, I assess vulnerabilities affecting Microsoft's AI products and further Microsoft's research into AI Security.
+
+Before joining Microsoft, I was a Security Researcher in Intel's Security Assurance and Cryptography group.
+You can read about some of the work we did on addressing the unique security challenges posed by integrated AI agents on [arXiv](https://www.arxiv.org/abs/2505.06315).
 
 My Ph.D. advisor was [Chris Fletcher](http://cwfletcher.net/) at the University of Illinois at Urbana-Champaign.
 My graduate research performed the first broad, systematic study of the microarchitecture literature to characterize the security implications of both known and new (theorized) microarchitectural optimizations [[1]](https://jose-sv.github.io/publication/pandoras_box).
@@ -29,5 +33,5 @@ in the fall of 2019.
 My M.S. culminated in the introduction of
 [Asynchronous Poisoning Attacks](https://jose-sv.github.io/publication/2020-03-01-game-of-threads).
 
- Feel free to contact me josers2 [at] illinois [dot] edu with any questions
+ Feel free to contact me jose.sanchezvicarte [at] microsoft [dot] com with any questions
  about my papers, research, or anything else.
